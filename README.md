@@ -24,8 +24,8 @@ Download the source code (it's just one python file) and install the `gpiozero` 
 ```
 sudo pip install gpiozero
 ```
-Now, create a directory where you store the audio files (make sure that ***only the audio files are in this directory***), and put as many Weezer songs as you want in there.
-Then you can run it from the command line:
+Now, create a directory where you store the audio files (make sure that ***only the audio files are in this directory***), and put as many Weezer songs as you want in there. Go into `weezer.py` and change line 7 to the actual path to that directory.
+Now, you can run it from the command line:
 ```
 python3 weezer.py
 ```
