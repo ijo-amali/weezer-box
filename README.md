@@ -20,4 +20,17 @@ It should look something like this!
 ------------
 ## Software
 
-Download the code here: [weezer.py](https://tinyurl.com/r8sfpw98)
+Download the source code (it's just one python file) and install the `gpiozero` python library if you haven't already:
+```
+sudo pip install gpiozero
+```
+Then you can run it from the command line:
+```
+python3 weezer.py
+```
+But you might want to run it right when it boots up so you don't have to do that. There are several ways to do that, one of which could be to use `crontab`.
+To do this, type `crontab -e` and select a text editor. At the bottom of the file, add:
+```
+@reboot /usr/bin/python3 /path/to/weezer.py
+```
+(replacing `path/to/weezer/py` with the actual path)
