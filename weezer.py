@@ -3,7 +3,8 @@ from subprocess import call
 import os, random, signal
 
 # Directory that the songs are stored in
-song_directory = "/home/pi/Dev/projects/weezer-button/songs"
+# Change this!!! Make sure there is no / at the end
+song_directory = "/path/to/song/directory"
 button = Button(2, hold_time=5)
 is_playing = False
 
