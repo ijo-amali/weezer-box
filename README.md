@@ -16,3 +16,8 @@ Put a wire in GPIO pin 2 and in a ground pin (a pin guide can be found [here](ht
 
 It should look something like this!
 ![Image of completed build](https://user-images.githubusercontent.com/33301953/121628800-32d89980-ca37-11eb-822e-f8c4fa4e2ec1.png)
+
+------------
+## Software
+
+Download the code here: [weezer.py](https://tinyurl.com/r8sfpw98)
